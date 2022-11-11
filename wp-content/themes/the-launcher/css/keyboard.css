@@ -1,0 +1,192 @@
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+input[type="submit"].newsletter-submit:focus {
+    background-color: #701d24;
+}
+
+.main-navigation ul ul li {} .main-navigation li:focus > a,
+.main-navigation li.focus > a {} .main-navigation ul ul:focus > a,
+.main-navigation ul ul .focus > a {} .main-navigation ul ul a:focus,
+.main-navigation ul ul a.focus {} .main-navigation ul li:focus > ul,
+.main-navigation ul li.focus > ul {
+    left: auto;
+}
+
+.main-navigation ul li a:focus {
+    background: #e13a48;
+}
+
+.side_menu .menu-item-has-children.focus > a:after {
+    content: '\f107';
+}
+
+#site-navigation li.focus > ul.sub-menu {
+    left: auto;
+    position: relative;
+    z-index: 99;
+    transform: translateX(0%) translateY(-0%);
+    -webkit-transform: translateX(0%) translateY(-0%);
+    -moz-transform: translateX(0%) translateY(-0%);
+}
+
+.top_menu ul li a:focus,
+.bottom_menu ul li a:focus {
+    color: #ee4f50;
+}
+
+input[type="submit"].newsletter-submit:focus {
+    background-color: #701d24;
+}
+
+.header_bg_wrap .image-size.banner_timer .owl-carousel .owl-prev:focus,
+.header_bg_wrap .image-size.banner_timer .owl-carousel .owl-next:focus,
+#arrow_left:focus,
+#arrow_right:focus {
+    color: #e13a49;
+}
+
+.service_posts_wrap .service_title a:focus,
+.blog_title_content .blog_title a:focus{
+	color:#e13a48;
+}
+
+.main_wrap_feature .owl-carousel .owl-dot span:focus {
+    border: 2px solid #ed4e4f;
+}
+
+#plx_testimonial_section .owl-carousel .owl-dot span:focus {
+    border: 2px solid #ed4e4f;
+}
+
+.launcher_client_section .client_images:focus .owl-prev,
+.launcher_client_section .client_images:focus .owl-next {
+    opacity: 1;
+}
+
+.the_launcher_pricing_button_link_class a:focus,
+.cta_button button:focus ,
+.contact_section_wrap .home-map-section aside form input[type="submit"]:focus{
+    background: #701d24;
+}
+
+.the_launcher_pricing_widget:focus{
+	    box-shadow: 0 0 22px rgba(10, 10, 10, 0.42);
+    -webkit-box-shadow: 0 0 22px rgba(10, 10, 10, 0.42);
+    -moz-box-shadow: 0 0 22px rgba(10, 10, 10, 0.42);
+}
+
+.footer_area_launcher .rn_post_wrap .rn_image a:focus img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.footer_area_launcher .title_content_wrap .tn_title a:focus {
+    color: #ee4f50;
+}
+
+footer .site-info span a:focus {
+    color: #e13a48;
+}
+
+.footer_area_launcher .sidebar_one a:focus img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.widget.widget_recent_entries ul li a:focus,
+.widget.widget_categories ul li a:focus {
+    color: #e13a48;
+}
+
+.widget_recent_comments ul li a:focus,
+.widget_recent_comments ul li span a:focus {
+    color: #e13a48;
+}
+
+.single_post_content a:focus {
+    color: #e13a48;
+}
+
+.widget ul li a:focus {
+    color: #e13a48;
+}
+
+.entry-meta span a:focus,
+.entry-footer span a:focus {
+    color: #e13a48;
+}
+
+.form-submit input:focus {
+    background: #701d24;
+    text-shadow: 0 0 0;
+}
+
+.comments-area a:focus {
+    color: #e13a48;
+}
+
+.nav-links .page-numbers.dots:focus {
+    background: transparent;
+    border: 0;
+    color: #e13a48;
+}
+
+.nav-links span:focus,
+.nav-links a:focus {
+    background: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.nav-links .page-numbers.dots:focus {
+    background: #000;
+    color: #fff;
+}
+
+.archive .single_post_content a:focus {
+    background: #e13a48;
+    color: #fff;
+    border-color: transparent;
+}
+
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus {
+    background: #e04a3a;
+    color: #fff;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title:focus,
+.woocommerce ul.products li.product .woocommerce-loop-product__title:focus,
+.woocommerce ul.products li.product h3:focus {
+    color: #e65c4d;
+}
+
+
+.woocommerce #respond input#submit.alt:focus,
+.woocommerce a.button.alt:focus,
+.woocommerce button.button.alt:focus,
+.woocommerce input.button.alt:focus,
+.woocommerce #respond input#submit.disabled:focus,
+.woocommerce #respond input#submit:disabled:focus,
+.woocommerce #respond input#submit:disabled[disabled]:focus,
+.woocommerce a.button.disabled:focus,
+.woocommerce a.button:disabled:focus,
+.woocommerce a.button:disabled[disabled]:focus,
+.woocommerce button.button.disabled:focus,
+.woocommerce button.button:disabled:focus,
+.woocommerce button.button:disabled[disabled]:focus,
+.woocommerce input.button.disabled:focus,
+.woocommerce input.button:disabled:focus,
+.woocommerce input.button:disabled[disabled]:focus {
+    background-color: #e04a3a;
+}
