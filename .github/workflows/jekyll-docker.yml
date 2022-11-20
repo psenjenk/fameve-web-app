@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Fameve site CI
 
 on:
   push:
@@ -13,8 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the site in the jekyll/builder container
+    - name: Build the site in the fameve/builder container
       run: |
         docker run \
-        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+        -v ${{ github.workspace }}:/srv/fameve -v ${{ github.workspace }}/_site:/srv/fameve/_site \
+        fameve/builder:latest /bin/bash -c "chmod -R 777 /srv/fameve && fameve build --future"
