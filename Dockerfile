@@ -1,14 +1,11 @@
-# Using official ubuntu image as a parent image
-FROM ubuntu:latest
-
-# Setting the working directory to /app
-WORKDIR /app
-
-# Copy the current directory contents into the container at /app
-COPY . /app
-
-# Getting the updates for Ubuntu and installing python into our environment
-RUN apt-get -y update  && apt-get install -y python
-
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+# syntax=docker/dockerfile:1
+FROM python:3.7-alpine
+WORKDIR /code
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
+RUN apk add --no-cache gcc musl-dev linux-headers
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+EXPOSE 5000
+COPY . .
+CMD ["flask", "run"]
